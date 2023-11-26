@@ -32,16 +32,18 @@
 
   .nav-link {
     padding: 10px 20px;
-    color: white !important;
-  }
+    color: black !important; /* Change text color to black */
+}
 
-  .nav-link:hover {
+.nav-link:hover {
     background-color: #6e5494;
-  }
+    color: white !important; /* Change text color to white on hover */
+}
 
-  .active {
+.active {
     background-color: #6e5494 !important;
-  }
+    color: black !important; /* Change text color for the active link */
+}
 
   .sidebar-toggler {
     background-color: #ffc107;
@@ -119,7 +121,7 @@
         <span>Master</span>
       </a>
       <div id="collapseSix" class="collapse" aria-labelledby="headingOne" data-parent="#accordionSidebar">
-        <div class="bg-white py-2 collapse-inner rounded">
+        <div class="bg-black py-2 collapse-inner rounded">
           <!-- Nama Kelas -->
           <a class="collapse-item" href="nama-kelas.php">
             <i class="fas fa-fw fa-clipboard-list"></i>
@@ -150,7 +152,7 @@
       </a>
             
       <div id="collapseFive" class="collapse" aria-labelledby="headingOne" data-parent="#accordionSidebar">
-        <div class="bg-white py-2 collapse-inner rounded">
+        <div class="bg-black py-2 collapse-inner rounded">
           <!-- Registrasi -->
           <a class="collapse-item" href="registrasi-member.php" >
             <i class="fas fa-fw fa-user"></i>
@@ -175,7 +177,7 @@
         <span>Laporan-laporan</span>
       </a>
       <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-        <div class="bg-white py-2 collapse-inner rounded">
+        <div class="bg-black py-2 collapse-inner rounded">
           <!-- Member Siswa -->
           <a class="collapse-item" href="laporan-member-siswa.php">
             <i class="fas fa-fw fa-clipboard-list"></i>
